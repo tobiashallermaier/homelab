@@ -30,7 +30,7 @@ A few rules I stuck to while wiring everything up:
 | 1 | Admin | `10.10.1.0/24` | Web UIs (OPNsense, UniFi Controller) |
 | 10 | Main | `10.10.10.0/24` | Main PCs, smart phones |
 | 20 | IoT | `10.10.20.0/24` | Smart home gear. | 
-| 30 | Trusted | `10.10.30.0/24` | Services only accessable in LAN |
+| 30 | Trusted | `10.10.30.0/24` | Services only accessible in LAN |
 | 40 | DMZ | `10.10.40.0/24` | Services exposed through port forwarding |
 | 50 | Work | `10.10.50.0/24` | Work VLAN, can't talk to others |
 | 60 | Guest | `10.10.60.0/24` |  Internet only access for guests. |
@@ -38,8 +38,8 @@ A few rules I stuck to while wiring everything up:
 ---
 ## Folders
 * [`/networking`](networking/): Firewall rules, DNS configs, and switch port setups.
-* [`/server`](server/): Proxmox config and what VMs are running.
-* [`/services`](services/): Home Assistant setup and Docker Compose files.
+* [`/server`](server/): *(WIP / Currently being documented)* – Proxmox config and what VMs are running.
+* [`/services`](services/): *(WIP / Currently being documented)* – Home Assistant setup and Docker Compose files.
 
 ---
 ## Notes on Security
